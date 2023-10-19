@@ -276,12 +276,22 @@ color: var(--SLATE, #434455);
     line-height: 1.5;
     letter-spacing: 0.02em
     }
+
+    /* ==========  /STATEGY LIST STYLES====== */
+
 /* === PEOPLE TEAM STYLES ===== */
-    .team-people {
+    .team-people-section {
         background-color: #F4F4FD;
+        padding: 120px 0;
     }
 
+        .team-people-list {
+            display: flex;
+            gap: 24px;
+
+        }
     .team-people-title {
+        margin-bottom: 72px;
         color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         font-family: "Roboto";
@@ -293,8 +303,15 @@ color: var(--SLATE, #434455);
     }
 .team-people-list-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.conteiner-info-people {
+    padding: 32px 0;
 }
     .name-people {
+        text-align: center;
         color: var(--NAVY-BLUE, #2E2F42);
             text-align: center;
             font-family: "Roboto";
