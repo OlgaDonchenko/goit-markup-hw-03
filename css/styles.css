@@ -1,13 +1,4 @@
 /* ============== COMMON STYLES ============== */
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
 
 h1,
     h2,
@@ -32,6 +23,7 @@ ol {
 img {
     display: block;
 }
+
 
 button {
     cursor: pointer;
@@ -73,12 +65,26 @@ body {
 /* ============== /COMMON STYLES ============== */
 
 /* =======  HEADER STYLESS ======= */
- .container {
+ 
+ .page-header {
+     border-bottom: 1px solid #e7e9fc;
+ }
+
+.container {
      width: 1158px;
-     margin-left: auto;
-     margin-right: auto;
+    margin: 0 auto;
 
  }
+
+ 
+
+ .container-flex {
+    display: flex;
+    padding-left: 15px;
+     padding-right: 15px;
+    justify-content: space-between;
+ }
+ 
 .nav  {
     display: flex;
         align-items: center;
@@ -87,18 +93,27 @@ body {
         max-width: 500px;
         padding: 0 15px;
         gap: 40px;
-        margin-right: 0
+        margin-right: 0;
        
 }
-   
-.address-menu ul {
-    
+  
+
+
+.address-menu .address-list {
+    display: flex;
+    gap: 40px;
     text-align: right;
-    align-items: center;
-        gap: 40px;
-        margin-right: 0
+       
+}
+.menu {
+    padding: 24px 0;
+}
+
+
        
        
+.logo{
+    margin-right: 76px;
 }
 
 
@@ -110,8 +125,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
-
+    
 
 }
 
@@ -135,10 +149,10 @@ body {
     display: flex;
 gap: 40px;
 }
-.link{
+/* .link{
     display: flex;
     gap: 40px;
-}
+} */
 .nav:hover{
     color: #404bbf;
 }
