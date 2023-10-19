@@ -76,7 +76,9 @@ body {
 
  }
 
- 
+ .hero-section {
+    padding: 188px 0;
+ }
 
  .container-flex {
     display: flex;
@@ -255,12 +257,13 @@ background-color: #2e2f42;
     width: calc((100% - 72px) / 4);
 }
 
-.name-stategy {
-    margin-bottom: 8px;
+.name-strategy {
+margin-bottom: 8px;
+  
 }
 
 
-.name-stategy {
+.name-strategy {
 color: var(--NAVY-BLUE, #2E2F42);
     font-family: "Roboto";
     font-size: 20px;
@@ -356,15 +359,18 @@ color: var(--SLATE, #434455);
     column-gap: 24px;
     row-gap: 48px;
 }
-.portfolio-title-list-item {
-    /* width: calc((100% - 48px) / 3); */
+.portfolio-title-list-item li {
+    width: calc((100% - 2 * 24px) / 3);
     margin-right: 24px;
 }
 .portfolio-title-list-item:nth-child(2n+1) {
     margin-right: 0;
+    
 }
 .portfolio-title-list-item:last-child {
-    margin-right: 0;}
+    margin-right: 0;
+}
+
 .group-service {
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: "Roboto";
