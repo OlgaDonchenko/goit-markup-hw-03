@@ -97,7 +97,9 @@ body {
        
 }
   
-
+.link {
+    padding: 24px 0;
+}
 
 .address-menu .address-list {
     display: flex;
@@ -108,10 +110,7 @@ body {
 .menu {
     padding: 24px 0;
 }
-
-
-       
-       
+   
 .logo{
     margin-right: 76px;
 }
@@ -149,10 +148,7 @@ body {
     display: flex;
 gap: 40px;
 }
-/* .link{
-    display: flex;
-    gap: 40px;
-} */
+
 .nav:hover{
     color: #404bbf;
 }
