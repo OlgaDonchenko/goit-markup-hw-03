@@ -185,7 +185,7 @@ gap: 40px;
 }
 
 
-/* ======== HERO SECTION STYLEST */
+/* ======== HERO SECTION STYLES============== */
 .hero-section {
     margin: 0 auto;
     padding-top: 188px;
@@ -239,9 +239,25 @@ background-color: #2e2f42;
 .button:focus {
     background-color: #404BBF;
 }
+/* ======== /HERO SECTION STYLES======== */
+
+
 /* ===  STATEGY LIST STYLES ====  */
+.strategy-section {
+    padding: 120px 0;
+}
+.strategy-list {
+    display: flex;
+    gap: 24px;
+}
 
+.strategy-list-item {
+    width: calc((100% - 72px) / 4);
+}
 
+.name-stategy {
+    margin-bottom: 8px;
+}
 
 
 .name-stategy {
