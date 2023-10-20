@@ -85,6 +85,7 @@ body {
     padding-left: 15px;
      padding-right: 15px;
     justify-content: space-between;
+   
  }
  
 .nav  {
@@ -115,6 +116,9 @@ body {
    
 .logo{
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
 }
 
 
@@ -411,9 +415,16 @@ color: var(--SLATE, #434455);
         background: #2e2f42;
         padding: 100px 0;
      }
-.logo {
+.logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
          .studio-color-footer {
             color: #f4f4fd;
